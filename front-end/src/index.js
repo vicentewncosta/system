@@ -12,6 +12,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import AuthRoutes from "./components/PrivateRoute/AuthRoutes";
 
 ReactDOM.render(
+
   <BrowserRouter>
     <Switch>
       <PrivateRoute path="/admin" component={AdminLayout} />
@@ -20,4 +21,5 @@ ReactDOM.render(
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
+  
 );
